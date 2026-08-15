@@ -161,23 +161,6 @@ The backend provides REST API endpoints for managing appointments.
 | PUT    | `/api/appointments/:id` | Update an appointment    |
 | DELETE | `/api/appointments/:id` | Delete an appointment    |
 
-> Update these endpoints to match the actual routes implemented in the project.
-
-## 🖥️ Screenshots
-
-Add screenshots of the application here.
-
-### Home Page
-
-![Home Page](./screenshots/home.png)
-
-### Appointment Booking
-
-![Appointment Booking](./screenshots/booking.png)
-
-### Appointment Management
-
-![Appointment Management](./screenshots/appointments.png)
 
 ## 🧠 Challenges & What I Learned
 
