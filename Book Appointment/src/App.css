@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+header{
+    height:  100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    color: navy;
+    background-color: #FAFAF8;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.menu{
+    margin-right: 22px;
+    border: none;
+    background-color: transparent;
+    cursor:  pointer;
+    font-size: 21px;
+    font-weight: 500;
+}
+.menu:hover{
+    color: navy;
+}
+.title{
+    font-size: 30px;
+}
+.date-logo{
+    width: 70px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items:  center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+form{
+    margin: 55px auto;
+    padding: 30px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label{
+    color: #25265E;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formEl{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    padding: 10px;
+    font-size:  17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    width: auto;
+    resize: vertical;
+}
+.submitBtn{
+    display: flex;
+    width:  100%;
+    padding:  15px 20px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #800080;
+    color: white;
+    border:  none;
+    justify-content: center;
+    cursor:  pointer;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bookingTime{
+    margin-top: 10px;
+}
+.AppointmentList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px 30px;
+    gap: 70px;
+}
+.AppointmentCard{
+    text-align: justify;
+    justify-items:  center;
+}
+.fullCard{
+    width: 250px;
+    background-color: #f8eed8;
+    padding:  30px;
+    border-radius: 12px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.timeDate{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 15px;
+}
+.cardTitle{
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.reason{
+    margin: 0;
+}
+.cancelBtn{
+    margin-top: 25px;
+    padding: 8px 20px;
+    font-size:16px;
+    border-radius: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition:  0.3s;
+}
+.cancelBtn:hover{
+    background-color: mediumvioletred;
+}
+.message{
+    margin: 0;
+    width: 700px;
+    align-items: center;
+    height: 60px;
+    color:  white;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 25px;
+    gap: 20px;
+}
+.message>h1{
+    margin: 0;
+    font-weight: 300;
+}
+.closeImg{
+    width: 20px;
+    cursor: pointer;
+}
+.closeImg:hover{
+    border: 1px solid black;
+}
